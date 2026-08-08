@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Security — FlashlyV1</title>
+<link rel="stylesheet" href="website.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="landing.html" class="logo">
+      <svg class="logo-mark" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M9 2h6l1 4-2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2-2V8L8 6l1-4z"/>
+        <path d="M9 8h6"/>
+      </svg>
+      FlashlyV1
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+    </button>
+    <ul class="nav-cols">
+      <li><a href="features.html">Features</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="HIW.html">How It Works</a></li>
+      <li><a href="security.html" aria-current="page">Security</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-intro wrap">
+    <p class="eyebrow">Security</p>
+    <h1>Nothing to leak, by design</h1>
+    <p>FlashlyV1 is built so a breach of its own systems can't expose your leads' personal information.</p>
+  </section>
+
+  <section class="cards single wrap">
+    <article class="card" tabindex="0">
+      <div class="card-media">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2l7 3v6c0 5-3.4 8.4-7 10-3.6-1.6-7-5-7-10V5l7-3z"/>
+          <path d="M9.2 12.2l2 2 3.6-4"/>
+        </svg>
+      </div>
+      <div class="card-body">
+        <span class="card-tag">No PII, ever</span>
+        <h3>No names, emails, or phone numbers stored</h3>
+        <p>FlashlyV1 only ever holds two things: your client configuration, and anonymous de-dup fingerprints. Every lead is validated and forwarded through a signed webhook, so your CRM receives it and FlashlyV1 doesn't keep a copy.</p>
+        <span class="card-hint">Tap to view</span>
+      </div>
+    </article>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">© 2026 FlashlyV1. Myden Punzal.</div>
+</footer>
+
+<div id="overlay"></div>
+<script src="website.js"></script>
+</body>
+</html>
